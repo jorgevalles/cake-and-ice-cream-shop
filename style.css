@@ -1,0 +1,205 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#banner {
+  background-size: cover;
+  height: 300px;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 2em 5%;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin: 2em 5%;
+  padding: 1em;
+  justify-content: space-betweem;
+}
+
+section > div {
+  width: 50%;
+}
+
+text {
+  display: flex;
+  align-content: center;
+}
+
+footer {
+  font-size: 0.8em;
+}
+
+active {
+  color: blue;
+  font-weight: 700;
+}
+
+banner {
+  width: 300px;
+  height: 200px;
+}
+
+#acerca {
+  display: flex;
+}
+
+#galeria > div {
+  display: flex;
+  margin: 30px 0;
+}
+
+#galeria > div > img {
+  margin: 0 30px;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-betweem;
+}
+#information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+#information > h2,
+#benefitsTips > h2 {
+  font-size: 14px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#Raffle h1,
+#information > h1,
+#benefitsTips > h1 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.table-products {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.table-products > thead > tr > th {
+  border: 2px solid;
+  padding: 10px;
+  text-wrap: nowrap;
+}
+.table-products > tbody > tr > td {
+  border: 2px solid;
+  padding: 10px;
+  width: 100%;
+  text-wrap: nowrap;
+}
+
+.img-benefitsTips {
+  width: 150px;
+  height: 180px;
+}
+
+#container-benefitsTips {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#item-benefitsTips {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+#Raffle {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+#Raffle h2 {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 0px;
+  text-align: center;
+}
+.raffle-title {
+  width: 100%;
+}
+.raffle {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 20px;
+}
+
+.raffle-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-section,
+.map-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media ( width > 768px) {
+  .raffle-body {
+    flex-direction: row;
+  }
+  .raffle {
+    margin-top: 0px;
+  }
+  .navbar {
+    flex-direction: row;
+  }
+}

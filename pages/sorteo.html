@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cake and ice cream shop - Raffle</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="shortcut icon"
+      href="/images/ResourcesElevemosElEstilo (1)/ResourcesElevemosElEstilo/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li><a href="../index.html" class="active">Inicio</a></li>
+          <li><a href="./aboutUS.html">Acerca de Nosotros</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
+          <li>
+            <a href="./information.html" class="active">Más informacion</a>
+          </li>
+          <li>
+            <a href="./benefitsTips.html" class="active">Beneficios y Tips</a>
+          </li>
+          <li>
+            <a href="./sorteo.html" class="active">Raffle</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Raffle">
+        <div class="raffle-title">
+          <h1>Gran Rifa</h1>
+          <h2>
+            Participa en el gran evento y podras ganar mucho premios sorpresa
+          </h2>
+        </div>
+        <div class="raffle-body">
+          <div class="map-section">
+            <div>Our is location is located at:</div>
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0442359946!2d-118.74140216859325!3d34.020608441919364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1718739484807!5m2!1ses-419!2sco"
+                width="300"
+                height="150"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <form class="raffle" action="/show_data.html" method="get">
+              <div>
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="f-name" />
+              </div>
+              <div>
+                <label for="name">Last Name</label>
+                <input type="text" id="name" name="l-name" />
+              </div>
+              <div>
+                <label for="seleccionar">Choose meet or Zoom</label>
+
+                <select name="reunion" id="seleccionar">
+                  <option value=""></option>
+                  <option value="Meet">Meet</option>
+                  <option value="Zoom">Zoom</option>
+                </select>
+              </div>
+              <div>
+                <label for="date">Choose Date</label>
+                <input type="date" id="date" name="date" />
+              </div>
+              <div>
+                <label for="payment">Payment Options</label>
+              </div>
+              <div>
+                <input type="radio" value="cash" id="cash" name="payment" />
+                <label for="cash">Cash</label>
+              </div>
+              <div>
+                <input type="radio" value="credit" id="credit" name="payment" />
+                <label for="credit">Credit Card</label>
+              </div>
+              <div>
+                <input type="radio" value="debit" id="debit" name="payment" />
+                <label for="debit">Debit Card</label>
+              </div>
+
+              <label for="msj">Message (option)</label>
+              <textarea name="Message" rows="10" cols="50"></textarea>
+
+              <div>
+                <input type="checkbox" name="checkbox"  id="conditions" />
+                <label for="conditions">I accept terms and conditions...</label>
+                </div>
+            <input type="submit" value="Send" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Creado por Jorge Valles</p>
+    </footer>
+  </body>
+</html>
